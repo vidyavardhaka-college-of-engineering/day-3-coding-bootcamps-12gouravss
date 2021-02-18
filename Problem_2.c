@@ -12,7 +12,13 @@ int main()
     scanf("%d", &n);
 
     //Write your code here
-    
+    for(i=1;i<=n;i++)
+    {
+      printf("%d\t" ,a);
+      c=a+b;
+      a=b;
+      b=c;
+          }
 
     return 0;
 }
